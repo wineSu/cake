@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "timer": "../component/timer",
+    "lists": "../component/list/list"
+  }
+}

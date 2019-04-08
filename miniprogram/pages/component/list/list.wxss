@@ -1,0 +1,45 @@
+.listCont{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  padding:16rpx 20rpx 0;
+}
+.list{
+  width: 344rpx;
+  height: 454rpx;
+  margin-bottom:26rpx;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+}
+.relative{
+  position: relative;
+}
+.list image{
+  width: 344rpx;
+  height: 344rpx;
+}
+.list .text_c{
+  text-align: center;
+  color: #fe3535;
+  padding-top: 50rpx;
+}
+
+.list .absolute{
+  position: absolute;
+  bottom:-30rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250rpx;
+  height: 76rpx;
+  line-height: 76rpx;
+  border: 1px solid #e7e7e7;
+  text-align: center;
+  color: #AA8764;
+  background: #fff;
+}
+
+.list .text_c text,.foods{
+  color: #333!important;
+}

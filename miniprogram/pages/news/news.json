@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "新品展示",
+  "usingComponents": {
+    "lists": "../component/list/list"
+  }
+}

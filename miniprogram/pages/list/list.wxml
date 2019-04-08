@@ -1,0 +1,3 @@
+<view>
+  <image wx:for="{{imgUrls}}" wx:key="{{item._id}}" data-id="{{item._id}}" data-name="{{item.name}}" src="{{item.url}}" bindtap='goList'></image>
+</view>

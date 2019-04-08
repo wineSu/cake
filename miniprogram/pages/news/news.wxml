@@ -1,0 +1,25 @@
+<swiper style='position:relative;' indicator-dots="{{indicatorDots}}" indicator-color="rgba(255, 255, 255, 1)" indicator-active-color="#d3b145" circular autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{item.id}}">
+      <swiper-item>
+        <image src='{{item.url}}' class="slide-image" width="100%" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='title'>
+    新品上新
+    <image src='../../i/tit.png'></image>
+  </view>
+  <view class='list clearx' wx:for="{{list}}" wx:key="{{item.id}}">
+    <image class='proimg' src='{{item.url}}'></image>
+    <view class='infor'>
+      <view class='tit'>{{item.name}}</view>
+      <view class='desc'>{{item.desc}}</view>
+      <view class='price'>{{item.price}}元/{{item.size}}寸</view>
+    </view>
+    <image class='line' src='../../i/line.png'></image>
+  </view>
+  
+  <image src="../../i/em1.png" class='em1'></image>
+  <image src="../../i/em2.png" class='em2'></image>
+  <image src="../../i/em3.png" class='em3'></image>
+  

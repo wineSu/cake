@@ -1,0 +1,7 @@
+<view class="timer-box">
+  <text class="timer-display">{{h}}</text>
+  <text class="timer-semi">:</text>
+  <text class="timer-display">{{m}}</text>
+  <text class="timer-semi">:</text>
+  <text class="timer-display">{{s}}</text>
+</view>

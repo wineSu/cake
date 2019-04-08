@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/list/list",
+    "pages/news/news",
+    "pages/about/about",
+    "pages/classify/classify"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "埃克斯蛋糕",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#696969",
+    "borderStyle": "white",
+    "selectedColor": "#d3b145",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "i/nav/home-icon.png",
+        "selectedIconPath": "i/nav/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "i/nav/activity-icon.png",
+        "selectedIconPath": "i/nav/activity-active.png",
+        "text": "系列"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "i/nav/new-pro.png",
+        "selectedIconPath": "i/nav/new-active.png",
+        "text": "新品"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath":"i/nav/menu-brand.png",
+        "selectedIconPath":"i/nav/menu-brand-icon.png",
+        "text": "品牌"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

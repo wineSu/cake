@@ -1,0 +1,35 @@
+.cake-info {
+    padding: 20rpx;
+    background: #fff;
+}
+.newPro-title image{
+  display: inline-block;
+  width: 34rpx;
+  height: 34rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.newPro-title text{
+  font-size: 28rpx;
+  color: #000;
+}
+.timer-title{
+  color: #696969;
+  padding: 20rpx 0;
+}
+
+.price-size{
+  padding-top: 50rpx;
+}
+.size{
+  font-size: 30rpx;
+  color: #fe3535;
+  padding-right: 10rpx;
+}
+.oldprice{
+  color: #808080;
+}
+.on-sale-pic{
+  width: 276rpx;
+  height: 276rpx;
+}

@@ -1,0 +1,84 @@
+page{
+  background: #fff;
+  padding-bottom: 2px;
+}
+swiper{
+  height: 420rpx;
+}
+.title{
+  padding: 30rpx 0;
+  line-height: 100rpx;
+}
+.title image{
+  top:-4rpx;
+  width: 60%;
+  height: 160rpx;
+}
+.list{
+  padding: 30rpx 100rpx;
+  background: #fff;
+  position: relative;
+}
+.list .proimg{
+  float: left;
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+}
+.list .infor{
+  float: right;
+}
+
+.list:nth-child(2n) image{
+  float: right;
+}
+.list:nth-child(2n) .infor{
+  float: left;
+}
+.list .tit{
+  width: 200rpx;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  font-size: 36rpx;
+  color: #AA8764;
+  padding: 60rpx 0 20rpx;
+  border-bottom: 1rpx solid #AA8764;
+}
+.list .desc{
+  width: 200rpx;
+  font-size: 26rpx;
+  padding-bottom: 10rpx;
+}
+.price{
+  color: darkred;
+}
+.em1{
+  width: 100rpx;
+  height: 100rpx;
+  position: fixed;
+  left: 20rpx;
+  top: 30%;
+}
+.em2{
+  width: 60rpx;
+  height: 100rpx;
+  position: fixed;
+  right: 20rpx;
+  top: 70%;
+}
+.em3{
+  width: 130rpx;
+  height: 100rpx;
+  position: fixed;
+  left: 20rpx;
+  bottom: 20rpx;
+}
+.line{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 1px;
+  width: 50%;
+}

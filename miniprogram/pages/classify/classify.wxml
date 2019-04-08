@@ -1,0 +1,4 @@
+<view class='top'>
+  <image src='{{imgUrl}}'></image>
+</view>
+<lists listsData="{{listData}}"></lists>

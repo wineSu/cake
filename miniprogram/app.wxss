@@ -1,0 +1,73 @@
+page{
+  font-size: 24rpx;
+  color: #333;
+  background: #f9f9f9;
+}
+.clearx:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearx {
+  zoom: 1;
+}
+/*对齐*/
+
+.text_l {
+  text-align: left;
+}
+
+.text_c {
+  text-align: center;
+}
+
+.text_r {
+  text-align: right;
+}
+/*浮动*/
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+swiper {
+  display: block;
+  height: 600rpx;
+}
+swiper image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.title{
+  font-size: 32rpx;
+  color: #3C2314;
+  padding: 60rpx 0 40rpx;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  background: #fff;
+  border-top: 16rpx solid #f9f9f9;
+}
+.title image{
+  position: absolute;
+  left: 50%;
+  top:5rpx;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 130rpx;
+  z-index: -1;
+}

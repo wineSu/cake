@@ -1,0 +1,33 @@
+page{
+  background: #fff;
+  padding-bottom: 20rpx;
+}
+.title{
+  border-top: 0;
+}
+.title image{
+  top:110rpx;
+  height: 1px;
+}
+.desc{
+  padding:20rpx 100rpx;
+  line-height: 40rpx;
+  text-align: justify;
+  background: #fff;
+}
+.wx{
+  display: block;
+  width: 300rpx;
+  height: 300rpx;
+  margin: 30rpx auto 0;
+  border: 1px solid #fff;
+}
+.desc1{
+  width: 80%;
+  margin: 0 auto;
+  background: -webkit-linear-gradient(left, #ff9c73 , #fbc366);
+  color: #fff;
+  padding: 40rpx 20rpx;
+  border-radius: 5px;
+  font-size: 26rpx;
+}

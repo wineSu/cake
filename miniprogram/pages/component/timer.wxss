@@ -1,0 +1,11 @@
+.timer-display{
+  display: inline-block;
+  width: 40rpx;
+  height: 40rpx;
+  border: 1rpx solid #333;
+  text-align: center;
+  line-height: 40rpx;
+}
+.timer-semi{
+  margin: 0 10rpx;
+}

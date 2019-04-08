@@ -1,0 +1,33 @@
+<swiper style='position:relative;' indicator-dots="{{indicatorDots}}" indicator-color="rgba(255, 255, 255, 1)" indicator-active-color="#d3b145" circular autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{item.id}}">
+      <swiper-item>
+        <image src='https://6361-cake-6dd9fc-1258914695.tcb.qcloud.la/banner/{{item.url}}' class="slide-image" width="100%" />
+      </swiper-item>
+    </block>
+  </swiper>
+<view class="cake-info clearx">
+  <view class="on-sale-today left">
+    <view class="newPro-title">
+        <image class="round-star" src="../../i/on-sale-today.png"></image>
+        <text class="on-sale-text">今日特惠</text>
+    </view>
+    <view class="timer-title">距结束还有</view>
+    <timer></timer>
+    <view class="price-size">
+      <text class="size">￥{{recommend.price}}/{{recommend.size}}寸</text>
+      <text class="oldprice">原价：</text>
+      <text class="oldprice">￥{{recommend.oldprice}}</text>
+    </view>
+  </view>
+    <image class="on-sale-pic right" src="{{recommend.url}}"></image>
+</view>
+<view>
+  <view class='title'>主厨推荐 <image src='../../i/indextit1.png'></image> </view>
+  <lists listsData="{{list.cakes}}"></lists>
+
+  <view class='title'>咖啡下午茶<image src='../../i/indextit3.png'></image></view>
+  <lists listsData="{{list.cooffe}}"></lists>
+
+  <view class='title'>精选食材<image src='../../i/indextit2.png'></image></view>
+  <lists listsData="{{list.food}}" class="listContFood"></lists>
+</view>
