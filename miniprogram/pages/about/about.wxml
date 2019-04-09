@@ -1,33 +1,30 @@
-<image src="../../i/timg.jpg" style="width:100%;" mode="widthFix"></image>
-<view class="text_c title">
-  品牌故事
-  <image src="../../i/line.png" style="width:70%;" ></image>
-</view>
-<view class='desc'>
-  倘若，没有走访世界各个都市的奇幻旅程，也许今日就无法将如此美妙的蛋糕时刻与更多的人分享，更不会找到它的名字"X LE CAKE"。X LE CAKE的创始人在游历各地的旅程中，品尝了创意的美食。而这行程中的点滴回忆，使她迸发出了烘培臻品蛋糕的灵感。
-  X LE CAKE倡导用心烘培，秉持品质用心、服务用心、创意用心的理念，每个季节、假日，都会设计不同的产品及包装，用心将X LE CAKE打造成您眼中的精致礼物。我们尊崇欧洲特色配方，烘焙浓情备至的甜蜜礼物，爱与欢乐、爱与分享，由我们为您与家人温馨送上。
-</view>
+<view wx:if="{{dataall.flag}}">
+  <image src="../../i/timg.jpg" style="width:100%;" mode="widthFix"></image>
+  <view class="text_c title">
+    {{dataall.story.title}}
+    <image src="../../i/line.png" style="width:70%;" ></image>
+  </view>
+  <view class='desc'>
+    {{dataall.story.cont}}
+  </view>
 
-<view class="text_c title">
-  品牌理念
-  <image src="../../i/line.png" style="width:70%;" ></image>
+  <view class="text_c title">
+    {{dataall.linian.title}}
+    <image src="../../i/line.png" style="width:70%;" ></image>
+  </view>
+  <view class='desc'>
+    <view wx:for="{{dataall.linian.cont}}" wx:key="{{index}}">{{item}}</view>
+  </view>
+  <view class="text_c title">
+    {{dataall.lianxi.title}}
+    <image src="../../i/line.png" style="width:70%;"></image>
+  </view>
+  <view class=' desc1'>
+    <view wx:for="{{dataall.lianxi.cont}}" wx:key="{{index}}">{{item}}</view>
+  </view>
+  <image src='../../i/indextit1.png' class='wx'></image>
+  <view class='text_c'>微信二维码</view>
 </view>
-<view class='desc'>
-  <view>更正宗的黄金配方</view>
-  <view>更上乘的原料配比</view>
-  <view>更醇正的浓郁滋味</view>
-  <view>更具魅力的时尚创意</view>
-  <view>更贴心的客户服务</view>
-  <view>更安全的生产标准</view>
+<view wx:else>
+  我的蛋糕
 </view>
-<view class="text_c title">
-  联系我们
-  <image src="../../i/line.png" style="width:70%;"></image>
-</view>
-<view class=' desc1'>
-  <view>订购电话：4001-578-578</view> 
-  <view>地址：上海徐汇区田林路140号28号楼</view> 
-</view>
-<image src='../../i/indextit1.png' class='wx'></image>
-<view class='text_c'>微信二维码</view>
-

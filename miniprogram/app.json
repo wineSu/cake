@@ -9,7 +9,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "埃克斯蛋糕",
+    "navigationBarTitleText": "埃克斯",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
@@ -40,7 +40,7 @@
         "pagePath": "pages/about/about",
         "iconPath":"i/nav/menu-brand.png",
         "selectedIconPath":"i/nav/menu-brand-icon.png",
-        "text": "品牌"
+        "text": "关于"
       }
     ]
   },

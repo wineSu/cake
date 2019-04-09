@@ -10,7 +10,7 @@
 	},
 	"appid": "wxde18b5965468f5fa",
 	"projectname": "cakeCloud",
-	"libVersion": "2.6.4",
+	"libVersion": "2.6.5",
 	"condition": {
 		"search": {
 			"current": -1,
