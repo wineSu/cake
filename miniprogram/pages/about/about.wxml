@@ -1,4 +1,3 @@
-<view wx:if="{{dataall.flag}}">
   <image src="../../i/timg.jpg" style="width:100%;" mode="widthFix"></image>
   <view class="text_c title">
     {{dataall.story.title}}
@@ -13,7 +12,7 @@
     <image src="../../i/line.png" style="width:70%;" ></image>
   </view>
   <view class='desc'>
-    <view wx:for="{{dataall.linian.cont}}" wx:key="{{index}}">{{item}}</view>
+    <view class='text_c' wx:for="{{dataall.linian.cont}}" wx:key="{{index}}">{{item}}</view>
   </view>
   <view class="text_c title">
     {{dataall.lianxi.title}}
@@ -22,9 +21,6 @@
   <view class=' desc1'>
     <view wx:for="{{dataall.lianxi.cont}}" wx:key="{{index}}">{{item}}</view>
   </view>
-  <image src='../../i/indextit1.png' class='wx'></image>
+  <image src='{{dataall.wx}}' class='wx'></image>
   <view class='text_c'>微信二维码</view>
-</view>
-<view wx:else>
-  我的蛋糕
-</view>
+

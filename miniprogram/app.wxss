@@ -54,7 +54,7 @@ swiper image{
 }
 .title{
   font-size: 32rpx;
-  color: #3C2314;
+  color: #fff;
   padding: 60rpx 0 40rpx;
   text-align: center;
   position: relative;
