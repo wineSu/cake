@@ -6,7 +6,7 @@
     </block>
   </swiper>
   <view class='title'>
-    新品上新
+    新品推荐
     <image src='../../i/tit.png'></image>
   </view>
   <view class='list clearx' wx:for="{{list}}" wx:key="{{item.id}}">
