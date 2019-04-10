@@ -4,6 +4,7 @@ page{
 }
 .title{
   border-top: 0;
+  color: #AA8764;
 }
 .title image{
   top:110rpx;
