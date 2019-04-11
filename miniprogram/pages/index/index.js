@@ -17,6 +17,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    
     const db = wx.cloud.database()
     const that = this
     wx.showLoading({
@@ -25,7 +26,8 @@ Page({
     db.collection('banner').get({
       success(res){
         that.setData({
-          imgUrls: res.data
+          imgUrls: res.data,
+          flag: app.globalData.flag
         })
       }
     })

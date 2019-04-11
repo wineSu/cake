@@ -1,4 +1,4 @@
-// pages/about/about.js
+const app = getApp()
 Page({
 
   /**
@@ -21,7 +21,8 @@ Page({
       success(res) {
         wx.hideLoading()
         that.setData({
-          dataall: res.data[0]
+          dataall: res.data[0],
+          flag: app.globalData.flag
         })
       }
     })

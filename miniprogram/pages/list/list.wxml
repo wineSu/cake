@@ -1,3 +1,8 @@
-<view>
-  <image wx:for="{{imgUrls}}" wx:key="{{item._id}}" data-id="{{item._id}}" data-name="{{item.name}}" src="{{item.url}}" bindtap='goList'></image>
+<view wx:if="{{flag}}">
+  <view>
+    <image wx:for="{{imgUrls}}" wx:key="{{item._id}}" data-id="{{item._id}}" data-name="{{item.name}}" src="{{item.url}}" bindtap='goList'></image>
+  </view>
+</view>
+<view wx:else>
+  系列
 </view>

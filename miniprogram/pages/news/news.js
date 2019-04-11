@@ -1,4 +1,5 @@
-// pages/news/news.js
+const app = getApp()
+
 Page({
 
   /**
@@ -25,7 +26,8 @@ Page({
       success(res) {
         wx.hideLoading();
         that.setData({
-          imgUrls: res.data
+          imgUrls: res.data,
+          flag: app.globalData.flag
         })
       }
     })

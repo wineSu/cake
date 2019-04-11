@@ -1,3 +1,4 @@
+ <view wx:if="{{flag}}">
   <image src="../../i/timg.jpg" style="width:100%;" mode="widthFix"></image>
   <view class="text_c title">
     {{dataall.story.title}}
@@ -23,4 +24,7 @@
   </view>
   <image src='{{dataall.wx}}' class='wx'></image>
   <view class='text_c'>微信二维码</view>
-
+</view>
+<view wx:else>
+  关于
+</view>
