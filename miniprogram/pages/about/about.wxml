@@ -1,5 +1,6 @@
- <view wx:if="{{flag}}">
+
   <image src="../../i/timg.jpg" style="width:100%;" mode="widthFix"></image>
+   <view wx:if="{{flag}}">
   <view class="text_c title">
     {{dataall.story.title}}
     <image src="../../i/line.png" style="width:70%;" ></image>

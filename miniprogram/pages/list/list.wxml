@@ -4,5 +4,8 @@
   </view>
 </view>
 <view wx:else>
-  系列
+  <view style='color:red'>芒果系列</view>
+  <view style='color:red'>苹果系列</view>
+  <view style='color:red'>香蕉系列</view>
+  <view style='color:red'>橘子系列</view>
 </view>
