@@ -1,11 +1,3 @@
-<view wx:if="{{flag}}">
   <view>
     <image wx:for="{{imgUrls}}" wx:key="{{item._id}}" data-id="{{item._id}}" data-name="{{item.name}}" src="{{item.url}}" bindtap='goList'></image>
   </view>
-</view>
-<view wx:else>
-  <view style='color:red'>芒果系列</view>
-  <view style='color:red'>苹果系列</view>
-  <view style='color:red'>香蕉系列</view>
-  <view style='color:red'>橘子系列</view>
-</view>

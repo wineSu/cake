@@ -26,8 +26,7 @@ Page({
     db.collection('banner').get({
       success(res){
         that.setData({
-          imgUrls: res.data,
-          flag: app.globalData.flag
+          imgUrls: res.data
         })
       }
     })

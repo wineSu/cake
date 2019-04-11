@@ -22,8 +22,7 @@ Page({
       success(res) {
         wx.hideLoading()
         that.setData({
-          imgUrls: res.data,
-          flag: app.globalData.flag
+          imgUrls: res.data
         })
       }
     })

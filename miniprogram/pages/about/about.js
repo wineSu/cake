@@ -21,8 +21,7 @@ Page({
       success(res) {
         wx.hideLoading()
         that.setData({
-          dataall: res.data[0],
-          flag: app.globalData.flag
+          dataall: res.data[0]
         })
       }
     })

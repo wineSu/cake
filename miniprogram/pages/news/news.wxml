@@ -6,7 +6,6 @@
       </swiper-item>
     </block>
   </swiper>
-   <view wx:if="{{flag}}"> 
   <view class='title'>
     新品推荐
     <image src='../../i/tit.png'></image>
@@ -24,7 +23,3 @@
   <image src="../../i/em1.png" class='em1'></image>
   <image src="../../i/em2.png" class='em2'></image>
   <image src="../../i/em3.png" class='em3'></image>
-</view>
-<view wx:else>
-  新品
-</view>
