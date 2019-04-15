@@ -24,11 +24,11 @@
   </view>
   <view>
     <view class='title'>主厨推荐 <image src='../../i/indextit1.png'></image> </view>
-    <lists listsData="{{list.cakes}}"></lists>
+    <lists listsData="{{cakes}}"></lists>
 
     <view class='title'>咖啡下午茶<image src='../../i/indextit3.png'></image></view>
-    <lists listsData="{{list.cooffe}}"></lists>
+    <lists listsData="{{cooffe}}"></lists>
 
     <view class='title'>精选食材<image src='../../i/indextit2.png'></image></view>
-    <lists listsData="{{list.food}}" class="listContFood"></lists>
+    <lists listsData="{{food}}" class="listContFood"></lists>
   </view>

@@ -37,16 +37,31 @@ Page({
         })
       }
     })
-    db.collection('indexList').get({
+    db.collection('cakes').get({
       success(res) {
-        wx.hideLoading()
+        console.log(res.data)
         that.setData({
-          list: res.data[0]
+          cakes: res.data
         })
       }
     })
-    
+    db.collection('cooffe').get({
+      success(res) {
+        that.setData({
+          cooffe: res.data
+        })
+      }
+    })
+    db.collection('food').get({
+      success(res) {
+        wx.hideLoading()
+        that.setData({
+          food: res.data
+        })
+      }
+    })
   },
+  
 
   /**
    * 生命周期函数--监听页面初次渲染完成
