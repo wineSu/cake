@@ -27,7 +27,7 @@
     <lists listsData="{{cakes}}"></lists>
 
     <view class='title'>咖啡下午茶<image src='../../i/indextit3.png'></image></view>
-    <lists listsData="{{cooffe}}"></lists>
+    <lists listsData="{{coffe}}"></lists>
 
     <view class='title'>精选食材<image src='../../i/indextit2.png'></image></view>
     <lists listsData="{{food}}" class="listContFood"></lists>

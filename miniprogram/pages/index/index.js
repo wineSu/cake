@@ -39,16 +39,15 @@ Page({
     })
     db.collection('cakes').get({
       success(res) {
-        console.log(res.data)
         that.setData({
           cakes: res.data
         })
       }
     })
-    db.collection('cooffe').get({
+    db.collection('coffe').get({
       success(res) {
         that.setData({
-          cooffe: res.data
+          coffe: res.data
         })
       }
     })
