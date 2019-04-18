@@ -24,11 +24,25 @@ Page({
         })
       }
     })
-    db.collection(options.name).get({
+    const _ = db.command
+    db.collection('conect').where({
+      parid: options.id
+    }).get({
       success(res) {
-        wx.hideLoading()
-        that.setData({
-          listData: res.data
+        let arr = []
+        res.data.map(item => {
+          arr.push(item.id)
+        })
+        
+        db.collection('list').where({
+          _id: _.in(arr)
+        }).get({
+          success(ress) {
+            wx.hideLoading()
+            that.setData({
+              listData: ress.data
+            })
+          }
         })
       }
     })
