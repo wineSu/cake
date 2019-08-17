@@ -9,18 +9,24 @@
   </view>
 
   <view class="text_c title">
-    {{dataall.linian.title}}
+    品牌理念
     <image src="../../i/line.png" style="width:70%;" ></image>
   </view>
   <view class='desc'>
-    <view class='text_c' wx:for="{{dataall.linian.cont}}" wx:key="{{index}}">{{item}}</view>
+    <view class='text_c'>更正宗的黄金配方</view>
+    <view class='text_c'>更上乘的原料配比</view>
+    <view class='text_c'>更醇正的浓郁滋味</view>
+    <view class='text_c'>更具魅力的时尚创意</view>
+    <view class='text_c'>更适合馈赠的礼物</view>
+    <view class='text_c'>更安全的生产标准</view>
   </view>
   <view class="text_c title">
-    {{dataall.lianxi.title}}
+    联系方式
     <image src="../../i/line.png" style="width:70%;"></image>
   </view>
   <view class=' desc1'>
-    <view wx:for="{{dataall.lianxi.cont}}" wx:key="{{index}}">{{item}}</view>
+    <view>联系电话：{{dataall.phone}}</view>
+    <view>地址：{{dataall.address}}</view>
   </view>
-  <image src='{{dataall.wx}}' class='wx'></image>
+  <image src='{{dataall.url}}' class='wx'></image>
   <view class='text_c'>微信二维码</view>
